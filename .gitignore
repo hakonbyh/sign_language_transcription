@@ -1,0 +1,13 @@
+env
+sign_sample_model
+.idea/
+gpulab.key
+gpulab.key.pub
+*.pyc
+.venv/
+data/
+slt/logs/
+cluster/home/haakobh/fpt4slt/slt/logs/
+wandb/
+train_bert2bert_b4.out
+train_bert2bert.out

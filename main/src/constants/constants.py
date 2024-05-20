@@ -1,0 +1,32 @@
+import os
+
+MAX_FRAME_COUNT = 110
+MIN_FRAME_COUNT = 50
+
+IMAGENET_MEAN = 0.485, 0.456, 0.406
+IMAGENET_STD = 0.229, 0.224, 0.225
+
+BOTTOM_FACE_LANDMARK = 152
+TOP_FACE_LANDMARK = 10
+THRESHOLD = 0.7
+TOLERANCE = 5
+
+VALIDATION_FREQUENCY = 2
+
+CURRENT_DIRECTORY = os.getcwd()
+
+BLEURT_DIR = os.path.join(CURRENT_DIRECTORY, "cslr_master/checkpoints/BLEURT-20")
+SAVE_MODEL_DIRECTORY = os.path.join(CURRENT_DIRECTORY, "cslr_master/saved_models")
+
+SAVE_DIR = os.path.join("/cluster/home/haakobh/master/cslr_master/processed_data")
+
+LEFT_HIP = 23
+RIGHT_HIP = 24
+
+LEFT_SHOULDER = 11
+RIGHT_SHOULDER = 12
+
+POSE = 25
+FACE = 468
+LEFT_HAND = 21
+RIGHT_HAND = 21
